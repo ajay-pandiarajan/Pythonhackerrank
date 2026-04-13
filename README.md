@@ -9,9 +9,8 @@ This repository contains my personal solutions to various Python challenges on [
 ---
 
 ## 🔗 Quick Links
-- **My HackerRank Profile**: [Your_Profile_Link_Here](https://hackerrank.com)
-- **Problem Set**: [Python Domain](https://hackerrank.com)
-
+- **My HackerRank Profile**: [Your_Profile_Link_Here]((https://www.hackerrank.com/profile/meajayy3))
+- **Problem Set**: [Python Domain](https://www.hackerrank.com/domains/python?filters%5Bstatus%5D%5B%5D=unsolved&badge_type=python)
 ---
 
 ## 📂 Project Structure
