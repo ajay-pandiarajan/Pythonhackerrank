@@ -1,0 +1,32 @@
+from collections import deque
+
+# 1. Initialize an empty dequeue
+d = deque()
+
+# Read the number of operations (N)
+N = int(input())
+
+# 2. Process N operations
+for _ in range(N):
+    # Read the operation and any value
+    line = input().split()
+    operation = line[0]
+
+    if operation == 'append':
+        # Add value to the right end
+        d.append(int(line[1]))
+    elif operation == 'appendleft':
+        # Add value to the left end
+        d.appendleft(int(line[1]))
+    elif operation == 'pop':
+        # Remove from the right end (if not empty)
+        if d:
+            d.pop()
+    elif operation == 'popleft':
+        # Remove from the left end (if not empty)
+        if d:
+            d.popleft()
+
+# 3. Print the final deque elements, space-separated
+print(*d)
+# Enter your code here. Read input from STDIN. Print output to STDOU
