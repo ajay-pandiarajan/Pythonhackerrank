@@ -4,6 +4,18 @@ Hi ![](https://user-images.githubusercontent.com/18350557/176309783-0785949b-912
 Sophomore ECE Student at Mepco Schlenk Engineering College,Sivakasi
 -------------------------------------------------------------------
 
+# PYTHON-HACKERRANK SOLUTIONS 
+
+"A collection of clean, optimized Python 3 solutions for HackerRank challenges, focusing on Pythonic idioms, algorithmic efficiency, and readable code structure."
+
+
+## Acknowledgements
+
+ - [Special thanks to the HackerRank Python Domain for the structured learning path.](https://awesomeopensource.com/project/elangosundar/awesome-README-templates)
+ - [Gratitude to the developers of the libraries used in these solutions .
+](https://github.com/matiassingers/awesome-readme)
+ - [Shoutout to fellow developers whose blog posts and tutorials helped me master complex concepts like Regex and Decorators.](https://bulldogjob.com/news/449-how-to-write-a-good-readme-for-your-github-project)
+
 "🚀 Efficient Python solutions for HackerRank challenges. Categorized by domain for easy navigation and reference."
 
 *   🌍  I'm based in India
