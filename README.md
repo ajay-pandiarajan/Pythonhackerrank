@@ -1,4 +1,4 @@
-# 🐍 Python HackerRank Solutions
+[# 🐍 Python HackerRank Solutions
 
 ![Python Version](https://shields.io)
 ![HackerRank Stars](https://shields.io)
@@ -35,3 +35,4 @@ If you want to test these solutions on your machine, ensure you have Python 3 in
 1. **Clone the repository**:
    ```bash
    git clone https://github.com
+](https://github.com/ajay-pandiarajan)
