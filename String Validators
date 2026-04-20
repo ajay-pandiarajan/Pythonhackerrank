@@ -1,0 +1,25 @@
+if __name__ == '__main__':
+    def validator(s):
+        alnum, alpha, digits, lower, upper = False, False, False, False, False
+
+        for c in s:
+            if c.isalnum():
+                alnum = True
+            if c.isalpha():
+                alpha = True
+            if c.isdigit():
+                digits = True
+            if c.islower():
+                lower = True
+            if c.isupper():
+                upper = True
+
+        print(alnum)
+        print(alpha)
+        print(digits)
+        print(lower)
+        print(upper)
+
+
+    s = input()
+    validator(s)
