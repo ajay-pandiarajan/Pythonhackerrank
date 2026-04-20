@@ -1,0 +1,26 @@
+from collections import Counter
+
+
+def earned(sales, stock):
+    earned = 0
+
+    for i in range(sales):
+        sale = input().split(" ")
+        shoe, price = sale[0], int(sale[1])
+
+        if shoe in stock and stock[shoe] >= 1:
+            earned += price
+            stock[shoe] -= 1
+        else:
+            continue
+
+    return earned
+
+
+stock_len = int(input())
+stock = dict(Counter([i for i in input().split(" ")]))
+sales = int(input())
+
+
+
+print(earned(sales, stock))# Enter your code here. Read input from STDIN. Print output to STDOUT
