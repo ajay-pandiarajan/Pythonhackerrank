@@ -1,0 +1,28 @@
+from collections import deque
+
+def solve():
+    t = int(input())
+    for _ in range(t):
+        n = int(input())
+        d = deque(map(int, input().split()))
+        
+        last_picked = float('inf')
+        possible = True
+        
+        while d:
+            # Compare the leftmost and rightmost cubes
+            if d[0] >= d[-1]:
+                current = d.popleft()
+            else:
+                current = d.popright() if hasattr(d, 'popright') else d.pop()
+            
+            # Check if current cube is larger than the one below it
+            if current > last_picked:
+                possible = False
+                break
+            last_picked = current
+            
+        print("Yes" if possible else "No")
+
+if __name__ == '__main__':
+    solve()
