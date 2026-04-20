@@ -1,0 +1,7 @@
+_ = input()
+english_subs = set(input().split())
+_ = input()
+french_subs = set(input().split())
+
+total_subs = english_subs.union(french_subs)
+print(len(total_subs))
